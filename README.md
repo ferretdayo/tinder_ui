@@ -1,6 +1,6 @@
-# React Tutorial
+# Tinder UI
 
-[the React tutorial](http://facebook.github.io/react/docs/tutorial.html)をReact+TypeScript+Webpackで書き直した。
+[the React tutorial](http://facebook.github.io/react/docs/tutorial.html)をReact+TypeScript+Webpackで書き直したものでtinderのUIを作ってみているもの(React + Reduxの勉強)
 
 # Usage
 
@@ -8,7 +8,7 @@
 変更されればTypeScriptをコンパイルしてファイル出力
 ```sh
 npm i
-gulp
+webpack --watch
 ```
 
 ## To use
