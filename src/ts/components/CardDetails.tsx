@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import {UserInfoType} from "./UserInfoType";
+import {UserInfoType} from "../types/UserInfoType";
 
 interface CardDetailsProps{
     userData: UserInfoType;

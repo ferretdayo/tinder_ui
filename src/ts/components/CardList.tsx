@@ -8,9 +8,9 @@ import {CardNone} from "./CardNone";
 /**
  * 型のimport
  */
-import {UserInfoType} from "./UserInfoType";
-import {UserImgType} from "./UserImgType";
-import {UserDetailsType} from "./UserDetailsType";
+import {UserInfoType} from "../types/UserInfoType";
+import {UserImgType} from "../types/UserImgType";
+import {UserDetailsType} from "../types/UserDetailsType";
 
 interface CardListProps{
     CardData: UserInfoType[];
@@ -48,7 +48,7 @@ export class CardList extends React.Component<CardListProps, CardListState>{
     //         });
     //     }
     //     this.setState({data: devideData});
-        
+
     // }
     // componentDidMount(){
     //     //this.devideData(this.props.CardData);

@@ -156,14 +156,14 @@
 	        //     dataType: 'json',
 	        //     type: 'GET',
 	        //     success: function(data: any) {
-	        //         //現在のコメントリストの情報を更新                                    
+	        //         //現在のコメントリストの情報を更新
 	        //         this.setState({data: data});
 	        //     }.bind(this),
 	        //     error: function(xhr: any, status: any, err: any) {
-	        //         //前のコメント情報に戻す                     
-	        //         this.setState({data: comments});                   
-	        //         console.error(this.props.url, status, err.toString());   
-	        //     }.bind(this)                                             
+	        //         //前のコメント情報に戻す
+	        //         this.setState({data: comments});
+	        //         console.error(this.props.url, status, err.toString());
+	        //     }.bind(this)
 	        // });
 	        // shift()でデータなければ'undefined'が配列に入る
 	        this.currentData = [data_1.UserData.shift(), data_1.UserData[0]];
@@ -199,10 +199,10 @@
 	        //         this.setState({data: [data.shift(), data.shift()]});
 	        //     }.bind(this),
 	        //     error: function(xhr: any, status: any, err: any) {
-	        //         //前のコメント情報に戻す                     
-	        //         this.setState({data: comments});                   
-	        //         console.error(this.props.url, status, err.toString());   
-	        //     }.bind(this)                                             
+	        //         //前のコメント情報に戻す
+	        //         this.setState({data: comments});
+	        //         console.error(this.props.url, status, err.toString());
+	        //     }.bind(this)
 	        // });
 	    };
 	    Cards.prototype.onLike = function (e) {
@@ -229,11 +229,11 @@
 	        //         this.setState({data: [data.shift(), data.shift()]});
 	        //     }.bind(this),
 	        //     error: function(xhr: any, status: any, err: any) {
-	        //         //前のコメント情報に戻す                     
-	        //         this.setState({data: comments});                   
-	        //         console.error(this.props.url, status, err.toString());   
-	        //     }.bind(this)                                             
-	        // });        
+	        //         //前のコメント情報に戻す
+	        //         this.setState({data: comments});
+	        //         console.error(this.props.url, status, err.toString());
+	        //     }.bind(this)
+	        // });
 	    };
 	    Cards.prototype.componentDidMount = function () {
 	        this.loadUserInfo();
